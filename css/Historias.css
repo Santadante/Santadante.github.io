@@ -109,15 +109,15 @@ a
 .imagenes
 {
     background-image: url('../img/Historias/historiasUsuarios/foto01.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto02.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto03.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto04.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto05.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto06.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto07.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto08.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto09.jpg');
-    background-image: url('../img/Historias/historiasUsuarios/foto10.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto02.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto03.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto04.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto05.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto06.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto07.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto08.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto09.jpg');
+    background-image: url('../img/Historias/historiasUsuarios/Foto10.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10%;
@@ -148,15 +148,15 @@ a
 @keyframes cambiarFotos
 {
     0% {background-image: url('../img/Historias/historiasUsuarios/foto01.jpg');}
-    15% {background-image: url('../img/Historias/historiasUsuarios/foto02.jpg');}
-    25% {background-image: url('../img/Historias/historiasUsuarios/foto03.jpg');}
-    35% {background-image: url('../img/Historias/historiasUsuarios/foto04.jpg');}
-    45% {background-image: url('../img/Historias/historiasUsuarios/foto05.jpg');}
-    55% {background-image: url('../img/Historias/historiasUsuarios/foto06.jpg');}
-    65% {background-image: url('../img/Historias/historiasUsuarios/foto07.jpg');}
-    75% {background-image: url('../img/Historias/historiasUsuarios/foto08.jpg');}
-    85% {background-image: url('../img/Historias/historiasUsuarios/foto09.jpg');}
-    95% {background-image: url('../img/Historias/historiasUsuarios/foto10.jpg');}
+    15% {background-image: url('../img/Historias/historiasUsuarios/Foto02.jpg');}
+    25% {background-image: url('../img/Historias/historiasUsuarios/Foto03.jpg');}
+    35% {background-image: url('../img/Historias/historiasUsuarios/Foto04.jpg');}
+    45% {background-image: url('../img/Historias/historiasUsuarios/Foto05.jpg');}
+    55% {background-image: url('../img/Historias/historiasUsuarios/Foto06.jpg');}
+    65% {background-image: url('../img/Historias/historiasUsuarios/Foto07.jpg');}
+    75% {background-image: url('../img/Historias/historiasUsuarios/Foto08.jpg');}
+    85% {background-image: url('../img/Historias/historiasUsuarios/Foto09.jpg');}
+    95% {background-image: url('../img/Historias/historiasUsuarios/Foto10.jpg');}
 }
 
 .footer
