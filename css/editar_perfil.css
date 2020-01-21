@@ -1,0 +1,604 @@
+
+body
+{
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: -0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b0fcff;
+    background: linear-gradient(0deg, rgba(99,235,193,0.8547794117647058) 15%, rgba(176,252,255,1) 50%, rgba(51,119,255,0.7651435574229692) 75%);
+}
+header
+{
+    position: fixed;
+    display: inline-block;
+    height: 8vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.cabecera
+{
+    height: 7.5vh;
+    width: 12vw;
+}
+
+nav
+{
+    background-color: #3377ff63;
+    border-radius: 0% 0% 15% 15%;
+    border: 1px solid black;
+    border-top: rgba(255, 255, 255, 0);
+    display: flex;
+    height: 8.5vh;
+    width: 75vw;
+    margin-top: -15px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+main
+{
+    margin-top: 4.5vh;
+    padding: 0;
+}
+a div
+{
+    margin: 5px 5vw 5px 5vw;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.inicio
+{
+    background-image: url("../img/iconos/logoInicio.png");
+}
+nav a:hover
+{
+    animation: linkvisible .2s;
+    background-color: #54ff9052;
+}
+.actual
+{
+    background-color: #54ff9071;
+}
+.descubrir
+{
+    background-image: url("../img/iconos/logoDescubrir.png");
+}
+.añadir
+{
+    background-image: url("../img/iconos/logoAñadir.png");
+}
+.logoperfil
+{
+    background-image: url("../img/iconos/logoPerfil.png");
+}
+.actividad
+{
+    background-image: url("../img/iconos/logoActividad.png");
+}
+.nombre
+{
+    margin-top: 8vh;
+    text-align: center;
+}
+.nombrei
+{
+    font-size: 30px;
+    height: 7vh;
+    width: 15vw;
+}
+.superior
+{
+    display: flex;
+    flex-direction: row;
+}
+.fotoperfil
+{
+    
+    background-image: url("../IMG/fotoperfil1.png");
+    background-size: cover;
+    margin: 25px;
+    margin-top: 10.5vh;
+    height: 160px;
+    width: 160px;
+    align-items: center;
+    border: 5px outset #3377ff
+}
+.fotoperfil:hover .editarperfil
+{
+    background-image: url("../img/iconos/editarperfil.png");
+    background-size: cover;
+    margin: 29px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}
+.datos
+{
+    display: flex;
+    flex-direction: column;
+}
+.datospersonales
+{
+    display: flex;
+    flex-direction: column;
+}
+.datospersonales form
+{
+    display: table;
+    border: 1px solid grey;
+    background-color: rgba(255, 255, 255, 0.521);
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 60vw;
+    height: 15vh;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(51,119,255,1);
+}
+form div
+{
+    display: table-row;
+}
+form div .fila
+{
+    display: table-row;
+}
+.datospersonales form div .celda
+{
+    display: table-cell;
+    text-align: right;
+}
+
+#subtabla div 
+{
+    display: table-row;
+}
+#subtabla div label
+{
+    display: table-cell;
+}
+#subtabla div input
+{
+    display: table-cell;
+}
+.principal
+{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    flex-direction: column;
+    margin-top: 3vh;
+    margin: 0;
+}
+.estado
+{
+    margin: 5px 0px 0px 15px;
+    height: 5vh;
+    width: 45vw;
+}
+.externos
+{
+
+}
+.externos p
+{
+    margin: 10px 0px 0px 15px;
+}
+.fotosperfil
+{
+    align-content: center;
+    margin-bottom: 2px;
+}
+.fotos
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.filafoto
+{
+    display: flex;
+    flex-direction: row;
+}
+.fotonueva
+{
+    background-image: URL("../img/agregarfoto.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.agregarfoto
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+}
+.foto1
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+}
+.titulo
+{
+    margin-top: 7px;
+    color: black;
+    font-style: italic;
+}
+.img1
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto2
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img2
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+ 
+    transition: .2s;
+}
+.foto3
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img3
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto4
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img4
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto5
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img5
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto6
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img6
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto7
+{
+    background-color: #83c7eb;
+    height: 200px;
+    width: 200px;
+    padding: 20px 20px 20px 20px;
+    margin: 3vh;
+    transition: .2s;
+}
+.img7
+{
+    background-image: URL("../img/img1.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    transition: .2s;
+}
+.foto1:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    transition: .2s;
+    margin: 3vh;
+}
+.foto1:hover .img1
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    transition: .2s;
+}
+.foto1:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+    transition: .2s;
+}
+
+.foto2:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto2:hover .img2
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto2:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+
+.foto3:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto3:hover .img3
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto3:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+
+.foto4:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto4:hover .img4
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto4:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+
+.foto5:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto5:hover .img5
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto5:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+
+.foto6:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto6:hover .img6
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto6:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+
+.foto7:hover
+{
+    background-color: #83c7eb;
+    animation: transformarco .2s;
+    box-shadow: 7px 7px 5px 0px rgba(24,24,26,1);
+    height: 300px;
+    width: 300px;
+    padding: 20px 20px 100px 20px;
+    margin: 3vh;
+}
+.foto7:hover .img7
+{
+    background-image: URL("../img/borrar.png");
+    animation: transfor .2s;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.foto7:hover .contenido
+{
+    animation: aparece .2s;
+    visibility: visible;
+}
+.contenido
+{
+    visibility: hidden;
+}
+
+b
+{
+    color: red;
+    font-size: 20px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: blue;
+}
+footer
+{
+    margin-top: 10px;
+    height: 10vh;
+    background-color: #3377ff63;
+    box-shadow: 0px 17px 5px 0px rgb(101, 248, 152);
+}
+.logo
+{
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 7.5vh;
+    width: 12vw;
+    margin-top: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.copyright
+{
+
+}
+@keyframes transfor
+{
+    0%{height: 150px; width: 150px;}
+    25%{height: 175px; width: 175px;}
+    50%{height: 200px; width: 200px;}
+    75%{height: 225px; width: 225px;}
+    100%{height: 250px; width: 250px;}
+}
+@keyframes transformarco
+{
+    0%{height: 150px; width: 150px; padding: 20px 20px 55px 20px;}
+    25%{height: 175px; width: 175px; padding: 25px 25px 70px 25px;}
+    50%{height: 200px; width: 200px; padding: 30px 30px 80px 30px;}
+    75%{height: 225px; width: 225px; padding: 35px 35px 90px 35px;}
+    100%{height: 250px; width: 250px; padding: 40px 40px 100px 40px;}
+}
+@keyframes aparece
+{
+    0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    50%{opacity: 0%;}
+    75%{opacity: 20%;}
+    100%{opacity: 100%;}
+}
+@keyframes linkvisible
+{
+    0%{background-color: #54ff9002;}
+    25%{background-color: #54ff9012;}
+    50%{background-color: #54ff9022;}
+    75%{background-color: #54ff9032;}
+    100%{background-color: #54ff9042;}
+}
+
+@keyframes aparecetooltip
+{
+    0%{opacity: 0%;}
+    25%{opacity: 25%;}
+    50%{opacity: 50%;}
+    75%{opacity: 75%;}
+    100%{opacity: 100%;}
+}

@@ -1,0 +1,179 @@
+body
+{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    background-color: #3377FF;
+    
+}
+.header
+{
+    top: 0px;
+    height: 10%;
+    width: 80%;
+    position: fixed;
+    border-top: none;
+    border-left: #63EBC1;
+    border-left-style: solid;
+    border-right: #63EBC1;
+    border-right-style: solid;
+    border-bottom: #63EBC1;
+    border-bottom-style: solid;
+    border-width: 2px;
+    background-color: #83C7EB;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.7);
+    transition: 0.5s;
+}
+
+.descubrir
+{
+    position: fixed;
+    border-top: none;
+    border-left: #63EBC1;
+    border-left-style: solid;
+    border-right: #63EBC1;
+    border-right-style: solid;
+    border-bottom: #63EBC1;
+    border-bottom-style: solid;
+    border-width: 2px;
+    background-color: #83C7EB;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.7);
+    transition: 0.5s;
+}
+.header img
+{
+    width: 4%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 6%;
+    margin-top: 1%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header img:hover
+{
+    background-color: #54FF91;
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+.header a
+{
+    cursor: default;
+    text-decoration: none;
+}
+
+
+.footer
+{
+    bottom: 0px;
+    height: 10%;
+    width: 80%;
+    border-left: #63EBC1;
+    border-left-style: solid;
+    border-right: #63EBC1;
+    border-right-style: solid;
+    border-top: #63EBC1;
+    border-top-style: solid;
+    border-width: 2px;
+    background-color: #83C7EB;
+    position: fixed;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.footer .ubicacion:hover
+{
+    animation-name: animacion;
+    animation-duration: 2.5s;
+}
+@keyframes animacion
+{
+    0% {font-size: 1em; color: #3377FF }
+    20%{font-size: 2em; color: #3377FF }
+    35%{font-size: 3em; color: #54FF91}
+    50%{font-size: 3em; color: #3377FF}
+    65%{font-size: 2em; color: #3377FF}
+    80%{font-size: 1em; color: #54FF91}
+    95%{font-size: 1em;}
+}
+.logo img
+{
+    width: auto;
+    height: 60px;
+    text-align: left;
+    font-size: 20px;
+    float: left;
+}
+.copyR
+{
+    margin-top: 1em;
+    
+}
+.ubicacion
+{
+    font-size: 1em;
+    margin-top: 1em;
+    cursor: default;
+}
+
+.menu
+{
+	background-color: #36B8FF;
+	border: 5px solid #FFF;
+	height: 70px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding: 10px;
+}
+.sugerencias
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	background-color: #36B8FF;
+	border: 5px solid #FFF;
+	height: 500px;
+	padding: 10px;
+}
+
+ul
+{
+	text-decoration: none;
+	margin-top: 15px;
+	font-size: 20px;
+	color: #FFF; 
+}
+
+li
+{
+	display: inline;
+	text-align: center;
+	padding: 105px;
+	margin-top: 10px;
+}
+
+li:hover
+{
+	color: red;
+}
+.usuarios
+{
+	margin-top: 60px;
+	border: blue 5px outset;
+}
+
+img
+{
+	width:170px;
+	height:170px;
+	
+}

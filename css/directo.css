@@ -1,0 +1,213 @@
+
+body
+{
+    width: 98vw;
+    height: 98vh;
+    padding: 0px;
+    margin: -0px;
+    display: flex;
+    flex-direction: column;
+    background-color: #b0fcff;
+    background: linear-gradient(0deg, rgba(99,235,193,0.8547794117647058) 15%, rgba(176,252,255,1) 50%, rgba(51,119,255,0.7651435574229692) 75%);
+}
+header
+{
+    position: fixed;
+    display: inline-block;
+    height: 8vh;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.cabecera
+{
+    height: 7.5vh;
+    width: 12vw;
+}
+
+nav
+{
+    background-color: #3377ff63;
+    border-radius: 0% 0% 15% 15%;
+    border: 1px solid black;
+    border-top: rgba(255, 255, 255, 0);
+    display: flex;
+    height: 8.5vh;
+    width: 75vw;
+    margin-top: -15px;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 12.5vh;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+main .chat
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 25% 25% 25% 25%;
+    background-color:  #3377ff63;
+    height: 75vh;
+    width: 80vw;
+    align-items: center;
+    justify-content: center;
+}
+.superior
+{
+    border-bottom: 1px solid black;
+    width: 79.5vw;
+    height: 15vh;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.config
+{
+    border-left: 1px solid black;
+    height: 15vh;
+    display: flex;
+    width: 25vw;
+    justify-content: left;
+    align-items: center;
+}
+.iconfig
+{
+    background-image: url("../IMG/engranaje.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+    margin-left: 25px;
+}
+.nombreusuario
+{
+    margin: 0px 12.5vw 20px 20px;
+}
+.fotoperfil
+{
+    margin: 0px 0px 0px 19vw;
+    background-image: url("../IMG/fotoperfil2.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    border: 5px outset #3377ff
+}
+.conversacion
+{
+    height: 50vh;
+}
+.escrito
+{
+    height: 10vh;
+    border-top: 1px solid black ;
+    width: 75.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto
+{
+    height: 8.5vh;
+    width: 46vw;
+    background-color: #3377ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto1
+{
+    height: 7.5vh;
+    width: 45vw;
+}
+.enviar
+{
+    margin: 5px;
+}
+.enviar1
+{
+    background-image: url("../IMG/enviar.png");
+    background-size: cover;
+    height: 45px;
+    width: 45px;
+}
+a div
+{
+    margin: 5px 5vw 5px 5vw;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+}
+.inicio
+{
+    background-image: url("../img/iconos/logoInicio.png");
+}
+nav a:hover
+{
+    animation: linkvisible .2s;
+    background-color: #54ff9052;
+}
+.actual
+{
+    background-color: #54ff9071;
+}
+.descubrir
+{
+    background-image: url("../img/iconos/logoDescubrir.png");
+}
+.añadir
+{
+    background-image: url("../img/iconos/logoAñadir.png");
+}
+.logoperfil
+{
+    background-image: url("../img/iconos/logoPerfil.png");
+}
+.actividad
+{
+    background-image: url("../img/iconos/logoActividad.png");
+}
+
+footer
+{
+    margin-top: 10px;
+    height: 10vh;
+    width: 100vw;
+    background-color: #3377ff;
+}
+.logo
+{
+    background-image: url("../img/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 7.5vh;
+    width: 12vw;
+    margin-top: 2px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.copyright
+{
+
+}
+
+@keyframes linkvisible
+{
+    0%{background-color: #54ff9002;}
+    25%{background-color: #54ff9012;}
+    50%{background-color: #54ff9022;}
+    75%{background-color: #54ff9032;}
+    100%{background-color: #54ff9042;}
+}
+
