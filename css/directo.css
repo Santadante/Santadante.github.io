@@ -83,7 +83,7 @@ main .chat
 }
 .iconfig
 {
-    background-image: url("../IMG/engranaje.png");
+    background-image: url("../img/engranaje.png");
     background-size: cover;
     height: 45px;
     width: 45px;
@@ -96,7 +96,7 @@ main .chat
 .fotoperfil
 {
     margin: 0px 0px 0px 19vw;
-    background-image: url("../IMG/fotoperfil2.png");
+    background-image: url("../img/fotoperfil1.png");
     background-size: cover;
     height: 100px;
     width: 100px;
@@ -136,7 +136,7 @@ main .chat
 }
 .enviar1
 {
-    background-image: url("../IMG/enviar.png");
+    background-image: url("../img/enviar.png");
     background-size: cover;
     height: 45px;
     width: 45px;
